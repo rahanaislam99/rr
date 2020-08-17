@@ -1,0 +1,238 @@
+body{
+	font-family: 'Jost', sans-serif;
+}
+.blue{
+    background: #47b2e4;
+    color: #fff !important;
+}
+img{
+	max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #12304a;
+}
+.bg-gray{
+    background: #F1F5F7;
+}
+/* Header CSS */
+header {
+    background: #37517E;
+    background-image: url(images/iso-1.png);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.navbar{
+	background: #37517E;
+}
+.navbar-brand img{
+	width: 150px;
+}
+.nav-item a {
+    color: #fff !important;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.nav-item a:hover {
+    color: #47B2E4 !important;
+}
+.nav-item .active{
+	color: #47B2E4 !important;
+}
+.banner{
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
+.brand {
+    padding-top: 40px;
+    padding-bottom: 40px;}
+.banner .btn {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 13px 29px;
+    margin-top: 20px;
+}
+.banner h1{
+    color: #fff !important;
+}
+.banner a.btn i {
+    font-size: 30px;
+    color: #47B2E4;
+    vertical-align: middle;
+    line-height: 0.8;
+    margin-right: 9px;
+}
+header h1 {
+    font-size: 45px;
+    line-height: 65px;
+    margin-bottom: 30px;
+}
+
+header p {
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+/* range css */
+.range-heading h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    color: #12304a;
+}
+.range-item h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.range-heading p {
+    color: #587790;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.range-heading a {
+    color: #47B2E4;
+    font-weight: 500;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.range-heading i {
+    margin-left: 10px;
+}
+
+.range {
+    margin-bottom: 100px;
+}
+
+.range-item .card {
+    border: none;
+}
+
+.range-item p {
+    color: #587790;
+}
+.range-item i {
+    font-size: 50px;
+    color: #47B2E4;
+    padding: 30px 30px 0px 30px;
+}
+
+/* trusted */
+.trusted-area{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(images/iso-2.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.trusted-area .btn{
+    padding: 13px 30px;
+}
+
+
+
+/* responsive */
+/*  X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+.banner h1 {
+    font-size: 28px !important;
+    line-height: 34px !important;
+    margin-top: 30px;
+}
+header p {
+    font-size: 16px;
+    line-height: 21px;
+}
+.brand .col-sm.col {
+    padding: 10px!important;
+}
+.banner {
+    margin-top: -100px;
+    text-align: center;
+}
+.range-item {
+    margin-top: 20px;
+}
+.trusted-area {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url();
+    text-align: center;
+}
+}
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    header {
+    background: #37517E;
+    background-image: url();
+}
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+header {
+    background-size: 450px !important;
+}
+.banner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.banner .btn {
+    font-size: 14px;
+    padding: 10px 29px;
+}
+.brand .col-sm {
+    padding: 33px !important;
+}
+.range-heading {
+    text-align: center;
+    margin-top: 50px;
+}
+.trusted-area {
+    background-size: 450px !important;
+}
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px){
+    header {
+    background-size: 550px;
+}
+    .banner h1 {
+    font-size: 35px;
+    line-height: 47px;
+}
+.btn {
+    padding: 9px 28px;
+}
+.range-heading p {
+    margin-top: 23px;
+    font-size: 16px;
+}
+.range-heading h2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+    header {
+    background-size: 600px;
+}
+.trusted-area{
+    background-size: 600px;
+}
+
+}
+
+/* XX-Large devices (larger desktops) */
+/* No media query since the xxl breakpoint has no upper bound on its width */
